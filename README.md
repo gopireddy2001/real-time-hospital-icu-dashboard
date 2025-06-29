@@ -41,7 +41,7 @@ streamlit run app.py
 
 ## 📸 Screenshot
 
-![Dashboard Screenshot](Streamlit.png)
+![Dashboard Screenshot](Streamlit-1.png)
 
 ---
 
