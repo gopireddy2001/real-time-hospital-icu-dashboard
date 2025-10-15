@@ -1,55 +1,30 @@
 # 🏥 Real-Time Hospital ICU Occupancy Dashboard
 
-An interactive dashboard to monitor and compare Adult and Pediatric ICU occupancy across U.S. states.
-
-Built with **Python**, **Streamlit**, and **public healthcare data**, this dashboard helps visualize ICU trends in real time and allows users to download filtered data.
-
----
-
-## 📊 Features
-
-- 📅 Select custom date range and U.S. state
-- 👶🧓 Compare Pediatric vs Adult ICU bed usage
-- 📈 Real-time trend visualization using line charts
-- 📥 Download filtered ICU occupancy data as CSV
-- ☁️ Built and deployed using Streamlit + Colab + ngrok
+An interactive **Streamlit dashboard** to monitor and compare **Adult and Pediatric ICU occupancy** across U.S. states.  
+It provides visual insights into ICU utilization trends and supports data-driven decision-making in healthcare resource management.
 
 ---
 
-## 🛠️ Tools & Technologies
+## 📊 Overview
+The dashboard enables:
+- Real-time visualization of **ICU capacity vs occupancy**
+- Filtering by **state** and **date range**
+- **Side-by-side comparison** of Adult and Pediatric ICUs
+- Exporting filtered data to **CSV** for further analysis
 
-- Python (Pandas)
-- Streamlit
-- Google Colab
-- Ngrok
-- Public health data from [HHS Protect](https://healthdata.gov/)
-
----
-
-## 🚀 How to Run
-
-1. Clone this repo and upload the two CSV files.
-2. Run the app locally with:
-
-```bash
-streamlit run app.py
-```
-
-3. Or launch in Colab with ngrok to deploy instantly.
+This project highlights data engineering, preprocessing, and visualization skills using **Python**, **Pandas**, and **Streamlit**.
 
 ---
 
-## 📸 Screenshot
-
-![Dashboard Screenshot](Streamlit-1.png)
-
----
-
-## 👩‍💻 Author
-
-Guru Kavya Sree Gopireddy 
-📍 Data Analyst | Healthcare Analytics | Python | Streamlit  
-🔗 [LinkedIn](https://www.linkedin.com/in/...)  
-🔗 [GitHub](https://github.com/gopireddy2001)
+## ⚙️ Tech Stack
+| Category | Tools / Libraries |
+|-----------|------------------|
+| Language | Python |
+| Visualization | Streamlit |
+| Data Handling | Pandas |
+| Data Source | Cleaned CSV datasets (Adult & Pediatric ICU) |
+| Version Control | Git & GitHub |
 
 ---
+
+## 🧱 Project Structure
